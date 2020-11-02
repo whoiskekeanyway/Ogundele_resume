@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>My Porfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <header>
+        <nav>
+            <!-- logo -->
+            <a class="navbar-brand" href="#homepage">
+                <div class="logo-image">
+                    <img src="profilepic.png" class="img-fluid">
+                </div>
+            </a>
+            <!-- Links -->
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link" href="#homepage">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Aboutme">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#project"> Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contactme"> Contact Me</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!--Welcome Image-->
+    <div class="welcomediv">
+        <img src="welcome2.svg" class="welcomeImg">
+    </div><br>
+    <hr class="dashed">
+    <!--About me-->
+    <div class="container-fluid" id="Aboutme">
+        <h1> About Me </h1>
+        <div class="row">
+            <div class="col-sm-6">
+                <img src="aboutme2.svg" id="aboutMeImage">
+            </div>
+            <div class="col-sm-6">
+                <section id="aboutMe">
+                    <p>
+                        I have always like to work in a space where it is certain i have to
+                        apply my creative side. I am an enterprenuer and i have done many
+                        business in the past like a giftshop, some agricuture and other
+                        things, i am also a photograher with interest in documentary and
+                        telling stories through standard and vivid visuals.{" "}
+                    <p>
+                        I am currently doing a bootcamp with HyperionDev, Web development
+                        and programming in general have always interest me and i am glad
+                        to be finally learning the basics so i can solve problems for
+                        myself and others. This journey is stressful and demanding but i
+                        am enjoy every moment of it.
+                    </p>
+                </section>
+            </div>
+        </div>
+    </div>
+    <hr class="dashed">
+    <!--Programming Languages-->
+    <div class="container-fluid" id="proglang">
+        <h1>Programming Languages </h1>
+        <div class="row">
+            <div class="col-sm-6">
+                <section class="language">
+                    <img src="html.svg" id="html" alt="">
+                    <img src="css.svg" id="css3" alt="">
+                    <img src="javascript.svg" id="javascript" alt="">
+                    <!-- <img src="react.png" id="react" alt=""> -->
+                    <img src="github.png" alt="" id="github">
+                    <img src="boobstrap.svg" alt="" id="bootstrap">
+                    <img src="jquery.svg" alt="" id="jquery">
+                </section>
+            </div>
+            <div class="col-sm-6">
+                <section class="moreinfo">
+                    <p>I started with HTML and CSS with Hyperion and it was an amazing ezperiece learning the basic, i
+                        am able to code and develop responsive websites with HTML and CSS. Boobstrap is also good with
+                        responsive websites and i can also use it to add a lot of functionality and help user solve
+                        problems with all these.</p>
+                    <p>I know a little bit of javascript and i can definitely apply it to even add more functionality.
+                        solve clients problems and beauty to my webpages and i am still learning because i love
+                        javascript and i belief understanding it fully will give me a lot of edge and would also make
+                        work easier for me.i am currently learning React, Nodejs and Express because as a Full Stack
+                        Developer, i know i meed to combine front-end and back end to be able to help my clients. I have
+                        learn how to use git and github, this is needed and compulsory to show off my past projects and
+                        also work with other developers.</p>
+                </section>
+            </div>
+        </div>
+    </div><br>
+    <hr class="dashed">
+    <!-- Projects i have work on -->
+    <div class="container-fluid" id="project">
+        <h1> Projects </h1>
+        <div class="row">
+            <div class="col-sm-6">
+                <h3>Calculator</h3>
+                <p>click below to 
+                    check out the function</p>
+                <a href="https://testcalculator.netlify.app/" class="button1">Click Here</a>
+            </div>
+            <div class="col-sm-6">
+                <h3>Online Store</h3>
+                <p>Online Store with Add to cart functionality</p>
+                <a href="https://testonlinestore.netlify.app/" class="button1">Click Here</a>
+            </div>
+            
+        </div>
+    </div>
+    <hr class="dashed">
+    <!-- Contact Details-->
+    <div class="container-fluid" id="contactme">
+        <h1> Hire Me</h1>
+        <div class="row">
+            <div class="col-md-6 ">
+                <p> Phone Number - 0660789551</p>
+                <p> Email Addresss - <a href="mailto:whoiskekeanyway@outlook.com">Email Me </a></p>
+                <details>
+                    <summary> Contact Address</summary>
+                    Visit us at:<br>
+                    Example.com<br>
+                    1 Bompas Rd<br>
+                    Dunkeld West,<br>
+                    Randburg, 2196
+                    </p>
+                </details>
+            </div>
+            <div class="col-md-6">
+                <img src="address2.svg" class="welcomeImg">
+            </div>
+        </div>
+    </div>
+    <hr class="dashed">
+    <div class=" text-center" style="margin-bottom:0">
+            <footer>
+                <h3> Ogundele Olalekan (c) 2020</h3>
+            </footer>
+    </div>
+        <script src="index.js"></script>
+</body>
+
+</html>
