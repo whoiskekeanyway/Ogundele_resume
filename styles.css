@@ -1,48 +1,75 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Roboto:ital,wght@1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@700&display=swap');
 
 body {
-  background-color: #9cde9f;
+  background-color:ivory;
   margin-top: 3%;
   margin-left: 7%;
   margin-right: 7%;
   margin-bottom: 7%;
+  font-family: 'Goldman', cursive;
 }
+#hire {
+  color: green;
+}
+
+#hireme {
+  align-items: center;
+  text-align: center;
+
+}
+
+
+.hiremeicon {
+  border: dashed;
+  color: black;
+  padding: 5px;
+  text-align: center;
+  justify-content: space-between;
+  margin: 10px;
+}
+.hiremeicon2 {
+  border: dashed;
+  color: black;
+  padding: 5px;
+  text-align: center;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.hiremeicon3 {
+  border: dashed;
+  color: black;
+  padding: 5px;
+  text-align: center;
+  justify-content: space-between;
+  margin: 10px;
+}
+
 
 html {
   scroll-behavior: smooth;
 }
 
-.logo-image {
-  width: 46px;
-  height: 46px;
-  overflow: hidden;
-  margin-top: -6px;
-}
 
-.navbar-nav {
-  padding: 1%;
-  justify-content: space-between;
-}
-
-.nav-link {
-  font-family: "Roboto", sans-serif;
-  color: black;
-}
 h1 {
   text-align: center;
   padding: 5%;
-  font-family: "Roboto", sans-serif;
-  color: #3b5998;
+  font-family: 'Goldman', cursive;
+  color: black;
+  font-weight: 700;
  
 }
 
 p {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Goldman', cursive;
   letter-spacing: 2px;
   margin: 0 auto;
-  padding: 12px;
+  padding: 6px;
   white-space: normal;
+  color: black;
 }
 
 hr.dashed {
@@ -50,27 +77,27 @@ hr.dashed {
 }
 
 .welcomediv {
-  align-content: center;
-  padding: 5%;
+  padding: 10%;
 }
 
 .welcomeImg {
-  width: 70%;
+  width: 100%;
   height: 100%;
 }
 
-#aboutMe {
-  margin-top: 5%;
-  text-align: center;
+#proglang {
+  padding: 10%;
+  
 }
 
-.moreinfo {
-  margin-top: 5%;
+#aboutMe,  #moreinfo {
+  padding: 10%;
   text-align: center;
 }
 
 #aboutMeImage {
-  width: 400px;
+  width: 100%;
+  height: 100%;
   
 }
 
@@ -90,11 +117,11 @@ hr.dashed {
 #bootstrap,
 #github,
 #jquery {
-  width: 200px;
-  height: 200px;
+  width: 180px;
+  height: 180px;
 }
 .button1 {
-  background-color: #1c87c9;
+  background-color: gray;
   border: none;
   color: white;
   padding: 10px 14px;
@@ -104,10 +131,11 @@ hr.dashed {
   font-size: 15px;
   margin: 4px 2px;
   cursor: pointer;
+  font-family: 'Goldman', cursive;
 }
 
 .button1:hover {
-  background-color: wheat;
+  background-color: whitesmoke;
 }
 
 #myBtn {
@@ -119,15 +147,16 @@ hr.dashed {
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: rgb(17, 5, 63);
-  color: white;
+  background-color: black;
+  color: ivory;
   cursor: pointer;
-  padding: 15px;
-  border-radius: 4px;
+  padding: 20px;
+  border-radius: 0px;
+  font-family: 'Goldman', cursive;
 }
 
 #myBtn:hover {
-  background-color: #555;
+  background-color: black;
 }
 #myBtn:after {
   content: ' \21E1';

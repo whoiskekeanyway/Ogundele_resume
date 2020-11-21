@@ -10,21 +10,22 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     <link rel="stylesheet" type="text/css" href="styles.css">
 
 </head>
 
 <body>
     <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-    <header>
+    <!-- <header>
         <nav>
-            <!-- logo -->
+             logo 
             <a class="navbar-brand" href="#homepage">
                 <div class="logo-image">
-                    <img src="profilepic.png" class="img-fluid">
+                    <img src="images/profilepic.png" class="img-fluid">
                 </div>
             </a>
-            <!-- Links -->
+             Links 
             <ul class="nav justify-content-end">
                 <li class="nav-item">
                     <a class="nav-link" href="#homepage">Home</a>
@@ -40,33 +41,57 @@
                 </li>
             </ul>
         </nav>
-    </header>
+    </header> -->
     <!--Welcome Image-->
-    <div class="welcomediv">
-        <img src="welcome2.svg" class="welcomeImg">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="welcomediv">
+                    <img src="images/welcome2.svg" class="welcomeImg">
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div>
+                    <H1>Looking for a developer ?</H1>
+                    <p> Welcome to my Porfolio website. my name is <span style="color: #3F88C5"> OLALEKAN OGUNDELE</span>. I am a <span style="color: #3F88C5"> Small Business Owner</span>, <span style="color: #3F88C5"> Photograher</span> and aspiring
+                        <span style="color: #3F88C5"> Full Stack Web Developer</span>.
+                        You can see some of the things i have worked on on my
+                        <a href="#project">Projects </a>and also on my
+                        <a href="https://www.github.com/whoiskekeanyway">Github</i></a> page
+                    </p>
+                    <section id="hireme">
+                        <h1 id="hire">Hire Me</h1>
+                        <a class="hiremeicon"  href="mailto:whoiskekeanyway@outlook.com"> Email <i class="fa fa-envelope" aria-hidden="true"></i></a>
+                        <a class="hiremeicon2" href="https://www.linkedin.com/in/olalekan-ogundele-745029200/"> Linkeden <i class='fab fa-linkedin'></i></a>
+                        <a class="hiremeicon3" href="https://www.github.com/whoiskekeanyway"> Github <i class='fab fa-github'></i></a> <br>
+                    </section>
+                </div>
+            </div>
+        </div>
     </div><br>
     <hr class="dashed">
     <!--About me-->
     <div class="container-fluid" id="Aboutme">
-        <h1> About Me </h1>
         <div class="row">
             <div class="col-sm-6">
-                <img src="aboutme2.svg" id="aboutMeImage">
+                <img src="images/aboutme.svg" id="aboutMeImage">
             </div>
             <div class="col-sm-6">
+                <h1> About Me </h1>
                 <section id="aboutMe">
-                    <p>
+                    <p> I am a MERN fullstack developer, i am currently studing with <a href="https://www.hyperionDev.com">HyperionDev</i></a>,
                         I have always like to work in a space where it is certain i have to
-                        apply my creative side. I am an enterprenuer and i have done many
+                        apply my creative side.solving problems in any capacity is always a good thing and using programming to solve problems is a great feeling. 
+                        I am an enterprenuer and i have done many
                         business in the past like a giftshop, some agricuture and other
                         things, i am also a photograher with interest in documentary and
-                        telling stories through standard and vivid visuals.{" "}
+                        telling stories through standard and compeling images<br>
                     <p>
-                        I am currently doing a bootcamp with HyperionDev, Web development
-                        and programming in general have always interest me and i am glad
-                        to be finally learning the basics so i can solve problems for
+                        Web development
+                        and programming in general have always been an interest for me and i am glad
+                        to be finally learning so i can solve problems for
                         myself and others. This journey is stressful and demanding but i
-                        am enjoy every moment of it.
+                        am enjoying the process and hope to get better at programmming and solving problems wih it
                     </p>
                 </section>
             </div>
@@ -75,31 +100,37 @@
     <hr class="dashed">
     <!--Programming Languages-->
     <div class="container-fluid" id="proglang">
-        <h1>Programming Languages </h1>
         <div class="row">
             <div class="col-sm-6">
                 <section class="language">
-                    <img src="html.svg" id="html" alt="">
-                    <img src="css.svg" id="css3" alt="">
-                    <img src="javascript.svg" id="javascript" alt="">
+                    <img src="images/html.svg" id="html" alt="">
+                    <img src="images/css.svg" id="css3" alt="">
+                    <img src="images/javascript.svg" id="javascript" alt="">
                     <!-- <img src="react.png" id="react" alt=""> -->
-                    <img src="github.png" alt="" id="github">
-                    <img src="boobstrap.svg" alt="" id="bootstrap">
-                    <img src="jquery.svg" alt="" id="jquery">
+                    <img src="images/github.png" alt="" id="github">
+                    <img src="images/boobstrap.svg" alt="" id="bootstrap">
+                    <img src="images/jquery.svg" alt="" id="jquery">
                 </section>
             </div>
             <div class="col-sm-6">
+                <h1></h1>
                 <section class="moreinfo">
-                    <p>I started with HTML and CSS with Hyperion and it was an amazing ezperiece learning the basic, i
-                        am able to code and develop responsive websites with HTML and CSS. Boobstrap is also good with
+                    <p>I started with HTML and CSS with Hyperion and it was an amazing ezperiece learning the basic,
+                        i
+                        am able to code and develop responsive websites with HTML and CSS. Boobstrap is also good
+                        with
                         responsive websites and i can also use it to add a lot of functionality and help user solve
                         problems with all these.</p>
-                    <p>I know a little bit of javascript and i can definitely apply it to even add more functionality.
+                    <p>I know a little bit of javascript and i can definitely apply it to even add more
+                        functionality.
                         solve clients problems and beauty to my webpages and i am still learning because i love
-                        javascript and i belief understanding it fully will give me a lot of edge and would also make
+                        javascript and i belief understanding it fully will give me a lot of edge and would also
+                        make
                         work easier for me.i am currently learning React, Nodejs and Express because as a Full Stack
-                        Developer, i know i meed to combine front-end and back end to be able to help my clients. I have
-                        learn how to use git and github, this is needed and compulsory to show off my past projects and
+                        Developer, i know i meed to combine front-end and back end to be able to help my clients. I
+                        have
+                        learn how to use git and github, this is needed and compulsory to show off my past projects
+                        and
                         also work with other developers.</p>
                 </section>
             </div>
@@ -111,49 +142,26 @@
         <h1> Projects </h1>
         <div class="row">
             <div class="col-sm-6">
-                <h3>Calculator</h3>
-                <p>click below to 
+                <h1>Calculator</h1>
+                <p>click below to
                     check out the function</p>
                 <a href="https://testcalculator.netlify.app/" class="button1">Click Here</a>
             </div>
             <div class="col-sm-6">
-                <h3>Online Store</h3>
+                <h1>Online Store</h1>
                 <p>Online Store with Add to cart functionality</p>
                 <a href="https://testonlinestore.netlify.app/" class="button1">Click Here</a>
             </div>
-            
-        </div>
-    </div>
-    <hr class="dashed">
-    <!-- Contact Details-->
-    <div class="container-fluid" id="contactme">
-        <h1> Hire Me</h1>
-        <div class="row">
-            <div class="col-md-6 ">
-                <p> Phone Number - 0660789551</p>
-                <p> Email Addresss - <a href="mailto:whoiskekeanyway@outlook.com">Email Me </a></p>
-                <details>
-                    <summary> Contact Address</summary>
-                    Visit us at:<br>
-                    Example.com<br>
-                    1 Bompas Rd<br>
-                    Dunkeld West,<br>
-                    Randburg, 2196
-                    </p>
-                </details>
-            </div>
-            <div class="col-md-6">
-                <img src="address2.svg" class="welcomeImg">
-            </div>
+
         </div>
     </div>
     <hr class="dashed">
     <div class=" text-center" style="margin-bottom:0">
-            <footer>
-                <h3> Ogundele Olalekan (c) 2020</h3>
-            </footer>
+        <footer>
+            <h3> Ogundele Olalekan (c) 2020</h3>
+        </footer>
     </div>
-        <script src="index.js"></script>
+    <script src="index.js"></script>
 </body>
 
 </html>
