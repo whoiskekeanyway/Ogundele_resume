@@ -17,16 +17,9 @@
 
 <body>
     <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-    <!-- <header>
+    <header>
         <nav>
-             logo 
-            <a class="navbar-brand" href="#homepage">
-                <div class="logo-image">
-                    <img src="images/profilepic.png" class="img-fluid">
-                </div>
-            </a>
-             Links 
-            <ul class="nav justify-content-end">
+            <ul class="nav justify-content-center">
                 <li class="nav-item">
                     <a class="nav-link" href="#homepage">Home</a>
                 </li>
@@ -34,59 +27,49 @@
                     <a class="nav-link" href="#Aboutme">About Me</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#project"> Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contactme"> Contact Me</a>
+                    <a class="nav-link" href="#projects"> Projects</a>
                 </li>
             </ul>
         </nav>
-    </header> -->
-    <!--Welcome Image-->
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-sm-6">
-                <div class="welcomediv">
-                    <img src="images/welcome2.svg" class="welcomeImg">
-                </div>
-            </div>
-            <div class="col-sm-6">
-                <div>
-                    <H1>Looking for a developer ?</H1>
-                    <p> Welcome to my Porfolio website. my name is <span style="color: #3F88C5"> OLALEKAN OGUNDELE</span>. I am a <span style="color: #3F88C5"> Small Business Owner</span>, <span style="color: #3F88C5"> Photograher</span> and aspiring
-                        <span style="color: #3F88C5"> Full Stack Web Developer</span>.
-                        You can see some of the things i have worked on on my
-                        <a href="#project">Projects </a>and also on my
-                        <a href="https://www.github.com/whoiskekeanyway">Github</i></a> page
-                    </p>
-                    <section id="hireme">
-                        <h1 id="hire">Hire Me</h1>
-                        <a class="hiremeicon"  href="mailto:whoiskekeanyway@outlook.com"> Email <i class="fa fa-envelope" aria-hidden="true"></i></a>
-                        <a class="hiremeicon2" target="blank" href="https://www.linkedin.com/in/olalekan-ogundele-745029200/"> Linkeden <i class='fab fa-linkedin'></i></a>
-                        <a class="hiremeicon3" target="blank" href="https://www.github.com/whoiskekeanyway"> Github <i class='fab fa-github'></i></a> <br>
-                    </section>
-                </div>
-            </div>
+    </header>
+    <div class="flex-container">
+        <!--Welcome Image-->
+        <div class="flex-item-left">
+            <img src="images/welcome2.svg" class="welcomeImg">
         </div>
-    </div><br>
+        <!--Introduction-->
+        <div class="flex-item-right">
+            <section class="hireme">
+            <h1 class="welnote">Looking for a WEB developer ?</h1>
+            <h4 id="hire">Hire Me </h4>
+                <a class="hiremeicon" href="mailto:whoiskekeanyway@outlook.com"> Email <i class="fa fa-envelope"
+                        aria-hidden="true"></i></a>
+                <a class="hiremeicon" target="blank" href="https://www.linkedin.com/in/olalekan-ogundele-745029200/">
+                    Linkeden <i class='fab fa-linkedin'></i></a>
+                <a class="hiremeicon" target="blank" href="https://www.github.com/whoiskekeanyway"> Github <i
+                        class='fab fa-github'></i></a> <br>
+            </section>
+        </div>
+    </div>
     <hr class="dashed">
     <!--About me-->
     <div class="container-fluid" id="Aboutme">
+        <div class="abtheader">
+            <h1> About Me </h1>
+        </div>
         <div class="row">
             <div class="col-sm-6">
-                <img src="images/aboutme.svg" id="aboutMeImage">
-            </div>
-            <div class="col-sm-6">
-                <h1> About Me </h1>
-                <section id="aboutMe">
-                    <p> I am a MERN fullstack developer, i am currently studing with <a href="https://www.hyperionDev.com">HyperionDev</i></a>,
+                <section class="aboutme" id="aboutMe">
+                    <p class="aboutmep"> I am a MERN fullstack developer, i am currently studing with <a
+                            href="https://www.hyperionDev.com">HyperionDev</i></a>,
                         I have always like to work in a space where it is certain i have to
-                        apply my creative side.solving problems in any capacity is always a good thing and using programming to solve problems is a great feeling. 
+                        apply my creative side.solving problems in any capacity is always a good thing and using
+                        programming to solve problems is a great feeling.
                         I am an enterprenuer and i have done many
                         business in the past like a giftshop, some agricuture and other
                         things, i am also a photograher with interest in documentary and
                         telling stories through standard and compeling images<br>
-                    <p>
+                    <p class="aboutmep">
                         Web development
                         and programming in general have always been an interest for me and i am glad
                         to be finally learning so i can solve problems for
@@ -95,70 +78,127 @@
                     </p>
                 </section>
             </div>
+            <div class="col-sm-6">
+                <div>
+                    <img src="images/aboutme.svg" class="aboutMeImage">
+                </div>
+            </div>
         </div>
     </div>
     <hr class="dashed">
     <!--Programming Languages-->
     <div class="container-fluid" id="proglang">
-        <div class="row">
-            <div class="col-sm-6">
-                <section class="language">
-                    <img src="images/html.svg" id="html" alt="">
-                    <img src="images/css.svg" id="css3" alt="">
-                    <img src="images/javascript.svg" id="javascript" alt="">
-                    <!-- <img src="react.png" id="react" alt=""> -->
-                    <img src="images/github.png" alt="" id="github">
-                    <img src="images/boobstrap.svg" alt="" id="bootstrap">
-                    <img src="images/jquery.svg" alt="" id="jquery">
-                </section>
-            </div>
-            <div class="col-sm-6">
-                <h1></h1>
-                <section class="moreinfo">
-                    <p>I started with HTML and CSS with Hyperion and it was an amazing ezperiece learning the basic,
-                        i
-                        am able to code and develop responsive websites with HTML and CSS. Boobstrap is also good
-                        with
-                        responsive websites and i can also use it to add a lot of functionality and help user solve
-                        problems with all these.</p>
-                    <p>I know a little bit of javascript and i can definitely apply it to even add more
-                        functionality.
-                        solve clients problems and beauty to my webpages and i am still learning because i love
-                        javascript and i belief understanding it fully will give me a lot of edge and would also
-                        make
-                        work easier for me.i am currently learning React, Nodejs and Express because as a Full Stack
-                        Developer, i know i meed to combine front-end and back end to be able to help my clients. I
-                        have
-                        learn how to use git and github, this is needed and compulsory to show off my past projects
-                        and
-                        also work with other developers.</p>
-                </section>
-            </div>
+        <div class="proglangheader">
+            <h1> Languages </h1>
         </div>
-    </div><br>
-    <hr class="dashed">
-    <!-- Projects i have work on -->
-    <div class="container-fluid" id="project">
-        <h1> Projects </h1>
+        <br>
+        <p class="proglangp"> These are some of the programming languages that i can used to help solve problems and
+            help my clients</p>
+        <br>
         <div class="row">
-            <div class="col-sm-6">
-                <h1>Calculator</h1>
-                <p>click below to
-                    check out the function</p>
-                <a href="https://testcalculator.netlify.app/" class="button1" target="blank">Click Here</a>
+            <div class="col-sm-4">
+                <div>
+                    <img src="images/html.svg" class="proglangimg" alt="html">
+                    <img src="images/css.svg" class="proglangimg" alt="css3">
+                    <img src="images/boobstrap.svg" class="proglangimg" alt="bootstrap">
+                </div>
             </div>
-            <div class="col-sm-6">
-                <h1>Online Store</h1>
-                <p>Online Store with Add to cart functionality</p>
-                <a href="https://testonlinestore.netlify.app/" class="button1" target="blank">Click Here</a>
+            <div class="col-sm-4">
+                <div>
+                    <img src="images/javascript.svg" class="proglangimg" alt="javascript">
+                    <img src="images/react.svg" class="proglangimg" alt="react">
+                    <img src="images/nodejs.svg" class="proglangimg" alt="jquery">
+                </div>
             </div>
-
+            <div class="col-sm-4">
+                <img src="images/git.svg" class="proglangimg" alt="git">
+                <img src="images/mongo.svg" class="proglangimg" alt="mongo">
+                <img src="images/github.png" class="proglangimg" alt="github">
+            </div>
         </div>
     </div>
     <hr class="dashed">
+    <!-- Projects i have work on -->
+    <div class="projectheader">
+        <h1> Projects </h1>
+    </div>
+    <div class="container-fluid" id="projects">
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="card">
+                    <img class="card-img-top" src="images/calculator.svg" alt="Card image" />
+                    <div class="card-body">
+                        <h4 class="card-title">Javascript Calculator</h4>
+                        <p class="card-text"> This is a online store with add to cart functionality, you can add
+                            items to cart and remove it at will
+                        </p>
+                        <br>
+                        <a href="https://testonlinestore.netlify.app/" class="button" target="blank">Live </a>
+                        <a href="https://testonlinestore.netlify.app/" class="button" target="blank">Code</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card">
+                    <img class="card-img-top" src="images/itunes.svg" alt="Card image" />
+                    <div class="card-body">
+                        <h4 class="card-title">Itunes API Search</h4>
+                        <p class="card-text"> This is a online store with add to cart functionality, you can add
+                            items to cart and remove it at will.
+                        </p>
+                        <br>
+                        <a href="https://testonlinestore.netlify.app/" class="button" target="blank">Live </a>
+                        <a href="https://github.com/whoiskekeanyway/itunes-app" class="button" target="blank">Code</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card">
+                    <img class="card-img-top" src="images/weather.svg" alt="Card image" />
+                    <div class="card-body">
+                        <h4 class="card-title">Weather App</h4>
+                        <p class="card-text">Simple weather application with reactjs with API,type in any state
+                            and
+                            the weather will be displayed.
+                        </p>
+                        <br>
+                        <a href="https://testonlinestore.netlify.app/" class="button" target="blank">Live </a>
+                        <a href="https://github.com/whoiskekeanyway/weatherapp" class="button" target="blank">Code</a>
+                    </div>
+                </div>
+            </div>
+           <div class="col-sm-3">
+            <div class="card">
+                <img class="card-img-top" src="images/store.svg" alt="Card image" />
+                <div class="card-body">
+                    <h4 class="card-title">Snake Game</h4>
+                    <p class="card-text"> This is a online store with add to cart functionality, you can add
+                        items to cart and remove it at will.
+                    </p>
+                    <br>
+                    <a href="https://testonlinestore.netlify.app/" class="button" target="blank">Live </a>
+                    <a href="https://github.com/whoiskekeanyway/snake-game" class="button" target="blank">Code</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact Me -->
+    <div class="footercontact">
+        <h1>Contact Me</h1>
+        <section class="">
+            <a class="footercontacticon" href="mailto:whoiskekeanyway@outlook.com"> Email <i class="fa fa-envelope"
+                    aria-hidden="true"></i></a>
+            <a class="footercontacticon" target="blank"
+                href="https://www.linkedin.com/in/olalekan-ogundele-745029200/">Linkeden <i
+                    class='fab fa-linkedin'></i></a>
+            <a class="footercontacticon" target="blank" href="https://www.github.com/whoiskekeanyway"> Github <i
+                    class='fab fa-github'></i></a> <br>
+        </section>
+    </div>
+    <!-- Footer -->
     <div class=" text-center" style="margin-bottom:0">
         <footer>
-            <h3> Ogundele Olalekan (c) 2020</h3>
+            <h3> Ogundele Olalekan (c) 2021</h3>
         </footer>
     </div>
     <script src="index.js"></script>
