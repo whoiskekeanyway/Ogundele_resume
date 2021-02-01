@@ -2,30 +2,52 @@
 <html lang="en">
 
 <head>
-    <title>My Porfolio</title>
+
+    <!-- Primary Meta Tags -->
+    <title>Olalekan`s Portfolio</title>
+    <meta name="title" content="Olalekan`s Portfolio">
+    <meta name="description" content="Are you looking for a web developer ? Hire me .....">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://metatags.io/">
+    <meta property="og:title" content="Olalekan`s Portfolio">
+    <meta property="og:description" content="Are you looking for a web developer ? Hire me .....">
+    <meta property="og:image"
+        content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://metatags.io/">
+    <meta property="twitter:title" content="Olalekan`s Portfolio">
+    <meta property="twitter:description" content="Are you looking for a web developer ? Hire me .....">
+    <meta property="twitter:image"
+        content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-CZTF5QNGCB"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-CZTF5QNGCB');
-</script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CZTF5QNGCB"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-CZTF5QNGCB');
+    </script>
 
 </head>
 
 <body>
+    <!-- Back to top button -->
     <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+    <!-- Header -->
     <header>
         <nav>
             <ul class="nav justify-content-center">
@@ -33,7 +55,7 @@
                     <a class="nav-link" href="#homepage">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#Aboutme">About Me</a>
+                    <a class="nav-link" href="#aboutme">About Me</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#projects"> Projects</a>
@@ -41,35 +63,201 @@
             </ul>
         </nav>
     </header>
-    <div class="flex-container">
-        <!--Welcome Image-->
-        <div class="flex-item-left">
-            <img src="images/welcome2.svg" class="welcomeImg">
+    <br>
+    <!-- Landing Page-->
+    <div>
+        <div class="flex-container">
+            <!--Welcome Image-->
+            <div class="flex-item-left">
+                <img class="welcome-img" src="images/welcome.svg">
+            </div>
+            <!--Introduction-->
+            <div class="flex-item-right">
+
+                <div>
+                    <p class="welnote">Looking for a WEB developer ?</p>
+                </div>
+                <div>
+                    <a class="certifications" href="#contact-me"> Hire Me &#8595;</a>
+                </div>
+                <div>
+                    <a class="hiremeicon" href="mailto:whoiskekeanyway@outlook.com"> Email <i class="fa fa-envelope"
+                            aria-hidden="true"></i></a>
+                    <a class="hiremeicon" rel="noopener" target="blank"
+                        href="https://www.linkedin.com/in/olalekan-ogundele-745029200/">
+                        Linkeden <i class='fab fa-linkedin'></i></a>
+                    <a class="hiremeicon" rel="noopener" target="blank" href="https://www.github.com/whoiskekeanyway">
+                        Github <i class='fab fa-github'></i></a>
+                </div>
+            </div>
         </div>
-        <!--Introduction-->
-        <div class="flex-item-right">
-            <section class="hireme">
-            <h1 class="welnote">Looking for a WEB developer ?</h1>
-            <h4 id="hire">Hire Me </h4>
-                <a class="hiremeicon" href="mailto:whoiskekeanyway@outlook.com"> Email <i class="fa fa-envelope"
-                        aria-hidden="true"></i></a>
-                <a class="hiremeicon" target="blank" href="https://www.linkedin.com/in/olalekan-ogundele-745029200/">
-                    Linkeden <i class='fab fa-linkedin'></i></a>
-                <a class="hiremeicon" target="blank" href="https://www.github.com/whoiskekeanyway"> Github <i
-                        class='fab fa-github'></i></a> <br>
-            </section>
+    </div>
+    <!--About me-->
+    <div id="aboutme">
+        <h1 class="abtheader">About Me </h1>
+        <div class="">
+            <div class="aboutme-container">
+                <div class="aboutme-item-left">
+                    <p class="aboutmep"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi ducimus
+                        voluptatibus veritatis possimus dolores nesciunt. Consequuntur laudantium sit earum autem
+                        provident doloribus impedit ex eligendi? Sapiente natus accusamus dolorem iusto?
+                        orem ipsum dolor sit amet, consectetur adipisicing elit. Minima sunt natus
+                        assumenda voluptate rem odit expedita nihil ab a minus.
+                    <p class="aboutmep">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias voluptate iuren
+                        assumenda unde aliquam quos pariatur! Velit accusantium perspiciatis ipsa.</p>
+                </div>
+                <div class="aboutme-item-right">
+                    <div>
+                        <img src="images/aboutme.svg" class="aboutMeImage">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="certy-div">
+            <a class="certifications" href="certifications.html"> Certifications</a>
         </div>
     </div>
     <hr class="dashed">
-    <!--About me-->
-    <div class="container-fluid" id="Aboutme">
-        <div class="abtheader">
-            <h1> About Me </h1>
+    <br>
+    <!--Skills-->
+    <hr class="dashed">
+    <div class="lang">
+        <h1 class="proglangheader"> Tech Stack </h1>
+        <div class="lang-container">
+            <div class="lang-item-right">
+                <img src="images/html.svg" class="proglangimg" alt="html">
+                <img src="images/css.svg" class="proglangimg" alt="css3">
+                <img src="images/boobstrap.svg" class="proglangimg" alt="bootstrap"><br>
+                <img src="images/javascript.svg" class="proglangimg" alt="javascript">
+            </div>
+            <div class="lang-item-left">
+                <img src="images/react.svg" class="proglangimg" alt="react">
+                <img src="images/nodejs.svg" class="proglangimg" alt="jquery">
+                <img src="images/git.svg" class="proglangimg" alt="git"><br>
+                <img src="images/mongo.svg" class="proglangimg" alt="mongo">
+                <img src="images/github.png" class="proglangimg" alt="github">
+            </div>
         </div>
-        <div class="row">
-            <div class="col-sm-6">
-                <section class="aboutme" id="aboutMe">
-                    <p class="aboutmep"> I am a MERN fullstack developer, i am currently studing with <a
+    </div>
+    <br>
+    <div class="lang">
+        <h1 class="proglangheader"> Other Skills </h1>
+        <div class="lang-container">
+            <div class="lang-item-right">
+                <img src="images/camera.svg" class="proglangimg" alt="">
+                <img src="images/responsive-design.svg" class="proglangimg" alt="">
+            </div>
+            <div class="lang-item-left">
+            </div>
+        </div>
+    </div>
+    <br>
+    <!-- Projects i have work on -->
+    <hr class="dashed">
+    <div class="projects" id="projects">
+        <h1 class="projectheader">Projects</h1>
+        <div class="projects-container">
+            <div class="project-item-right">
+                <img class="project-img" src="images/calculator.svg" alt="" />
+                <br>
+                <h4 class="project-heading"> Calculator</h4>
+                <br>
+                <p class="project-paragraph"> This is a online store with add to cart functionality, you can add items
+                    to
+                    cart and remove it at will
+                </p>
+                <div class="button-div">
+                    <a href="https://testcalculator.netlify.app/" class="button" target="blank">Demo </a>
+                    <a href="https://github.com/whoiskekeanyway/JavascriptCalculator" class="button"
+                        target="blank">Code</a>
+                </div>
+            </div>
+            <br>
+            <div class="project-item-left">
+                <img class="project-img" src="images/music.svg" alt="" />
+                <br>
+                <h4 class="project-heading">Itunes App</h4>
+                <br>
+                <p class="project-paragraph"> This is a online store with add to cart functionality, you can add items
+                    to cart and remove
+                    it at will.
+                </p>
+                <div class="button-div">
+                    <a href="https://new-app-itunes.herokuapp.com/" class="button" target="blank">Demo </a>
+                    <a href="https://github.com/whoiskekeanyway/itunes-app" class="button" target="blank">Code</a>
+                </div>
+            </div>
+        </div>
+        <div class="projects-container2">
+            <div class="project-item-right2">
+                <img class="project-img" src="images/store.svg" alt="" />
+                <h4 class="project-heading">Weather App</h4>
+                <p class="project-paragraph"> This is a online store with add to cart functionality, you can add items
+                    to cart and remove
+                    it
+                    at will
+                </p>
+                <div class="button-div">
+                    <a href="https://testonlinestore.netlify.app/" class="button" target="blank">Demo </a>
+                    <a href="https://github.com/whoiskekeanyway/weatherapp" class="button" target="blank">Code</a>
+                </div>
+            </div>
+            <div class="project-item-left2">
+                <img class="project-img" src="images/snake.svg" alt="" />
+                <h4 class="project-heading">Snake Game</h4>
+                <p class="project-paragraph"> This is a online store with add to cart functionality, you can add
+                    items
+                    to cart and remove
+                    it
+                    at will.
+                </p>
+                <div class="button-div">
+                    <a href="https://testonlinestore.netlify.app/" class="button" target="blank">Demo </a>
+                    <a href="https://github.com/whoiskekeanyway/snake-game" class="button" target="blank">Code</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <!-- Contact Me -->
+    <div id="contact-me">
+        <h1 class="contact-me">Contact Me</h1>
+        <div class="contact">
+            <div class="contact-words-div">
+                <h4 class="contact-paragraph">I'm looking for an entry-level front-end role with mentorship and room
+                    to
+                    grow.If you think I’d be a
+                    good
+                    fit for your team,
+                    <a class="" href="mailto:whoiskekeanyway@outlook.com"> shoot me an Email</a>
+                    and let’s chat.
+                </h4>
+            </div>
+            <div class="contact-icon-div">
+                <a class="contacticon" href="mailto:whoiskekeanyway@outlook.com"> Email <i class="fa fa-envelope"
+                        aria-hidden="true"></i></a>
+                <a class="contacticon" rel="noopener" target="blank"
+                    href="https://www.linkedin.com/in/olalekan-ogundele-745029200/">Linkeden <i
+                        class='fab fa-linkedin'></i></a>
+                <a class="contacticon" rel="noopener" target="blank" href="https://www.github.com/whoiskekeanyway">
+                    Github <i class='fab fa-github'></i></a> <br>
+            </div>
+        </div>
+    </div>
+    <br>
+    <!-- Footer -->
+    <div class="footer">
+        <footer>
+            <h3> Ogundele Olalekan (c) 2021</h3>
+        </footer>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
+
+
+<!--               <p class="aboutmep"> I am a MERN fullstack developer, i am currently studing with <a
                             href="https://www.hyperionDev.com">HyperionDev</i></a>,
                         I have always like to work in a space where it is certain i have to
                         apply my creative side.solving problems in any capacity is always a good thing and using
@@ -85,132 +273,4 @@
                         myself and others. This journey is stressful and demanding but i
                         am enjoying the process and hope to get better at programmming and solving problems wih it
                     </p>
-                </section>
-            </div>
-            <div class="col-sm-6">
-                <div>
-                    <img src="images/aboutme.svg" class="aboutMeImage">
-                </div>
-            </div>
-        </div>
-    </div>
-    <hr class="dashed">
-    <!--Programming Languages-->
-    <div class="container-fluid" id="proglang">
-        <div class="proglangheader">
-            <h1> Languages </h1>
-        </div>
-        <br>
-        <p class="proglangp"> These are some of the programming languages that i can used to help solve problems and
-            help my clients</p>
-        <br>
-        <div class="row">
-            <div class="col-sm-4">
-                <div>
-                    <img src="images/html.svg" class="proglangimg" alt="html">
-                    <img src="images/css.svg" class="proglangimg" alt="css3">
-                    <img src="images/boobstrap.svg" class="proglangimg" alt="bootstrap">
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div>
-                    <img src="images/javascript.svg" class="proglangimg" alt="javascript">
-                    <img src="images/react.svg" class="proglangimg" alt="react">
-                    <img src="images/nodejs.svg" class="proglangimg" alt="jquery">
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <img src="images/git.svg" class="proglangimg" alt="git">
-                <img src="images/mongo.svg" class="proglangimg" alt="mongo">
-                <img src="images/github.png" class="proglangimg" alt="github">
-            </div>
-        </div>
-    </div>
-    <hr class="dashed">
-    <!-- Projects i have work on -->
-    <div class="projectheader">
-        <h1> Projects </h1>
-    </div>
-    <div class="container-fluid" id="projects">
-        <div class="row">
-            <div class="col-sm-3">
-                <div class="card">
-                    <img class="card-img-top" src="images/calculator.svg" alt="Card image" />
-                    <div class="card-body">
-                        <h4 class="card-title">Javascript Calculator</h4>
-                        <p class="card-text"> This is a online store with add to cart functionality, you can add
-                            items to cart and remove it at will
-                        </p>
-                        <br>
-                        <a href="https://testonlinestore.netlify.app/" class="button" target="blank">Live </a>
-                        <a href="https://testonlinestore.netlify.app/" class="button" target="blank">Code</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-3">
-                <div class="card">
-                    <img class="card-img-top" src="images/itunes.svg" alt="Card image" />
-                    <div class="card-body">
-                        <h4 class="card-title">Itunes API Search</h4>
-                        <p class="card-text"> This is a online store with add to cart functionality, you can add
-                            items to cart and remove it at will.
-                        </p>
-                        <br>
-                        <a href="https://testonlinestore.netlify.app/" class="button" target="blank">Live </a>
-                        <a href="https://github.com/whoiskekeanyway/itunes-app" class="button" target="blank">Code</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-3">
-                <div class="card">
-                    <img class="card-img-top" src="images/weather.svg" alt="Card image" />
-                    <div class="card-body">
-                        <h4 class="card-title">Weather App</h4>
-                        <p class="card-text">Simple weather application with reactjs with API,type in any state
-                            and
-                            the weather will be displayed.
-                        </p>
-                        <br>
-                        <a href="https://testonlinestore.netlify.app/" class="button" target="blank">Live </a>
-                        <a href="https://github.com/whoiskekeanyway/weatherapp" class="button" target="blank">Code</a>
-                    </div>
-                </div>
-            </div>
-           <div class="col-sm-3">
-            <div class="card">
-                <img class="card-img-top" src="images/store.svg" alt="Card image" />
-                <div class="card-body">
-                    <h4 class="card-title">Snake Game</h4>
-                    <p class="card-text"> This is a online store with add to cart functionality, you can add
-                        items to cart and remove it at will.
-                    </p>
-                    <br>
-                    <a href="https://testonlinestore.netlify.app/" class="button" target="blank">Live </a>
-                    <a href="https://github.com/whoiskekeanyway/snake-game" class="button" target="blank">Code</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Contact Me -->
-    <div class="footercontact">
-        <h1>Contact Me</h1>
-        <section class="">
-            <a class="footercontacticon" href="mailto:whoiskekeanyway@outlook.com"> Email <i class="fa fa-envelope"
-                    aria-hidden="true"></i></a>
-            <a class="footercontacticon" target="blank"
-                href="https://www.linkedin.com/in/olalekan-ogundele-745029200/">Linkeden <i
-                    class='fab fa-linkedin'></i></a>
-            <a class="footercontacticon" target="blank" href="https://www.github.com/whoiskekeanyway"> Github <i
-                    class='fab fa-github'></i></a> <br>
-        </section>
-    </div>
-    <!-- Footer -->
-    <div class=" text-center" style="margin-bottom:0">
-        <footer>
-            <h3> Ogundele Olalekan (c) 2021</h3>
-        </footer>
-    </div>
-    <script src="index.js"></script>
-</body>
-
-</html>
+-->
