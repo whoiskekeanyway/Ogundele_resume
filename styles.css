@@ -188,9 +188,6 @@ nav a {
   margin: 10%;
 }
 
-#aboutme {
-}
-
 .aboutmep {
   text-indent: 50px;
   letter-spacing: 3px;
@@ -210,7 +207,7 @@ nav a {
   text-align: center;
 }
 
-.certifications {
+.modalBtn {
   background-color: whitesmoke;
   border: none;
   color: #00a6a6;
@@ -527,12 +524,112 @@ nav a {
   font-size: 14px;
   float: right;
 }
-@media screen and (max-width: 700px) {
-
-}
-
 
 .lang, .projects,#aboutme,.contact-me {
   padding-left: 10%;
   padding-right: 10%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  background-color: lightblue;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+#viewButton {
+  background-color: orangered;
+  border: none;
+  color: white;
+  padding: 10px 14px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: "Goldman", cursive;
+  border-radius: 5px;
+  float: right;
+}
+
+#viewButton:hover {
+  background-color: grey;
+}
+
+
+@media screen and (max-width: 767px) {
+  #viewButton {
+    background-color: orangered;
+    border: none;
+    color: white;
+    padding: 10px 14px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: "Goldman", cursive;
+    border-radius: 5px;
+    float: left;
+  }
+  
+  #viewButton:hover {
+    background-color: grey;
+  }
+}
+
+.backtohomepage {
+ text-align: center;
+ padding: 10%;
+ margin-right: 5%;
+ margin-left: 5%;
+ margin-top: 10%;
+}
+
+.the-content {
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-top: 10%;
+
+}
+
+.certifcations {
+  color: #00a6a6;
+  writing-mode: vertical-rl;
+  float: left;
+  font-size: 20px;
 }

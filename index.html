@@ -6,32 +6,32 @@
     <!-- Primary Meta Tags -->
     <title>Olalekan`s Portfolio</title>
     <meta name="title" content="Olalekan`s Portfolio">
-    <meta name="description" content="Are you looking for a web developer ? Hire me .....">
-
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://metatags.io/">
-    <meta property="og:title" content="Olalekan`s Portfolio">
-    <meta property="og:description" content="Are you looking for a web developer ? Hire me .....">
-    <meta property="og:image"
-        content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
-
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://metatags.io/">
-    <meta property="twitter:title" content="Olalekan`s Portfolio">
-    <meta property="twitter:description" content="Are you looking for a web developer ? Hire me .....">
-    <meta property="twitter:image"
-        content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+    <meta name="description" content="Are you looking for a web developer ? Hire me !">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
-    <!-- Global site tag (gtag.js) - Google Analytics -->
 
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://scriptsandtags.netlify.app">
+    <meta property="og:title" content="Olalekan`s Portfolio">
+    <meta property="og:description" content="Are you looking for a web developer ? Hire me .....">
+    <meta property="og:image" content="https://i.imgur.com/nyljaMX.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://scriptsandtags.netlify.app">
+    <meta property="twitter:title" content="Olalekan`s Portfolio">
+    <meta property="twitter:description" content="Are you looking for a web developer ? Hire me .....">
+    <meta property="twitter:image" content="https://i.imgur.com/nyljaMX.png">
+
+
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-CZTF5QNGCB"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -41,12 +41,14 @@
         gtag('config', 'G-CZTF5QNGCB');
     </script>
 
+    <link rel="preload" as="image" href="image.svg" type="image/image">
+    <link rel="preload" as="image" href="image.png" type="image/image">
+
 </head>
 
-<body>
+<body">
     <!-- Back to top button -->
     <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-
     <!-- Header -->
     <header>
         <nav>
@@ -114,7 +116,26 @@
             </div>
         </div>
         <div class="certy-div">
-            <a class="certifications" href="certifications.html"> Certifications</a>
+            <button class="modalBtn" id="modalBtn">Certifications</button>
+        </div>
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <div class="the-content">
+                    <h1 class="contact-me">Certifications</h1>
+                    <li> FreeCodeCamp Responsive Web Design 
+                        <a class="" id="viewButton" target="_blank"
+                            href="https://www.freecodecamp.org/certification/whoiskekeanyway/responsive-web-design">
+                            View </a>
+                    </li>
+                    <div class="backtohomepage">
+                        <a class="button" id="" href="index.html">
+                            Back to Homepage</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <hr class="dashed">
@@ -256,21 +277,3 @@
 
 </html>
 
-
-<!--               <p class="aboutmep"> I am a MERN fullstack developer, i am currently studing with <a
-                            href="https://www.hyperionDev.com">HyperionDev</i></a>,
-                        I have always like to work in a space where it is certain i have to
-                        apply my creative side.solving problems in any capacity is always a good thing and using
-                        programming to solve problems is a great feeling.
-                        I am an enterprenuer and i have done many
-                        business in the past like a giftshop, some agricuture and other
-                        things, i am also a photograher with interest in documentary and
-                        telling stories through standard and compeling images<br>
-                    <p class="aboutmep">
-                        Web development
-                        and programming in general have always been an interest for me and i am glad
-                        to be finally learning so i can solve problems for
-                        myself and others. This journey is stressful and demanding but i
-                        am enjoying the process and hope to get better at programmming and solving problems wih it
-                    </p>
--->
